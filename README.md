@@ -11,7 +11,7 @@
   <img alt="Location" src="https://img.shields.io/badge/Chennai,_India-333?style=flat&logo=googlemaps&logoColor=white">
 </p>
 
-<p align="center"><i>Payments engineer building EMV terminals, softPOS, and the systems that keep them running</i></p>
+<p align="center"><i>Software engineer building EMV terminals, softPOS, and the systems that keep them running</i></p>
 
 ## 💡 About Me
 
