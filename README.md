@@ -1,78 +1,103 @@
+<p align="center">
+  <img alt="" src="https://raw.githubusercontent.com/varun-kannan/varun-kannan/main/assets/header.svg" width="100%">
+</p>
+
 <h1 align="center">Varun N</h1>
 
 <p align="center">
-  <b>Payments engineer</b> — EMV terminals, softPOS, and the systems behind them.
+  <img alt="" src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=22D3EE&center=true&vCenter=true&width=640&height=42&lines=Payments+engineer;EMV+terminals+%E2%80%A2+softPOS+%E2%80%A2+offline+auth;L3+network+certification;Cryptography+that+has+to+be+exactly+right">
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/varun-n-7a6516256"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:varun.n1160@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
-  <a href="https://github.com/varun-kannan"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"></a>
+  <a href="https://linkedin.com/in/varun-n-7a6516256"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:varun.n1160@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/varun-kannan"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
----
-
-### What I work on
-
-I build card-payment systems end to end: EMV transaction flows on physical terminals and on
-softPOS, offline / deferred authorisation, acquirer integrations, and the fleet tooling that keeps
-terminals configured, keyed and up to date.
-
-A lot of that work is **network certification** — taking an integration through L3 against the card
-schemes, and debugging failures down to individual EMV tags and ISO fields.
-
-Some of the problems I've enjoyed most:
-
-- **Payments that work with no network.** A terminal is useless the moment it loses connectivity.
-  Building deferred authorisation across all four layers — terminal, SDK, gateway and backend —
-  means a merchant keeps taking payments offline and settles automatically on reconnect.
-- **Cryptography that has to be exactly right.** DUKPT key derivation, PIN translation, and key
-  injection pipelines where a single wrong byte fails certification rather than throwing an error.
-- **Fleets, not machines.** Terminal management, layered configuration, and scheduled over-the-air
-  updates — the difference between running one terminal and running thousands.
-- **Race conditions in distributed messaging.** Duplicate event delivery is easy to cause and hard
-  to see; tracking one down through acknowledgement timing was a genuinely instructive bug.
-
-Outside payments I mostly write TypeScript — REST services on Node.js, and whatever tooling the
-problem needs.
-
----
-
-### Tech
-
-**Payments**
 <br>
-<img alt="EMV" src="https://img.shields.io/badge/EMV%20%2F%20BER--TLV-1B2A41?style=flat-square">
-<img alt="DUKPT" src="https://img.shields.io/badge/DUKPT-1B2A41?style=flat-square">
-<img alt="PIN translation" src="https://img.shields.io/badge/PIN%20Translation-1B2A41?style=flat-square">
-<img alt="L3 certification" src="https://img.shields.io/badge/L3%20Certification-1B2A41?style=flat-square">
-<img alt="softPOS" src="https://img.shields.io/badge/softPOS-1B2A41?style=flat-square">
 
-**Backend**
+## 💳 &nbsp;What I work on
+
+I build card-payment systems end to end: **EMV** transaction flows on physical terminals and on
+**softPOS**, **offline / deferred authorisation**, acquirer integrations, and the fleet tooling that
+keeps terminals configured, keyed and up to date.
+
+A lot of that work is **network certification** — taking an integration through **L3** against the
+card schemes, and debugging failures down to individual EMV tags and ISO fields.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 📡 &nbsp;Payments with no network
+
+A terminal is useless the moment it loses connectivity. Deferred authorisation across all four
+layers — terminal, SDK, gateway, backend — means a merchant keeps taking payments offline and
+settles automatically on reconnect.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔐 &nbsp;Cryptography that must be exact
+
+DUKPT key derivation, PIN translation, and key-injection pipelines where a single wrong byte fails
+certification rather than throwing an error.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛰️ &nbsp;Fleets, not machines
+
+Terminal management, layered configuration and scheduled over-the-air updates — the difference
+between running one terminal and running thousands.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧩 &nbsp;Distributed-systems bugs
+
+Duplicate event delivery is easy to cause and hard to see. Tracking one down through
+acknowledgement timing was a genuinely instructive bug.
+
+</td>
+</tr>
+</table>
+
 <br>
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-<img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white">
-<img alt="Fastify" src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white">
-<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-<img alt="TypeORM" src="https://img.shields.io/badge/TypeORM-FE0803?style=flat-square">
 
-**Platform**
-<br>
-<img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white">
-<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-<img alt="NGINX" src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white">
-<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white">
-<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-
----
-
-### GitHub
+## 🛠️ &nbsp;Languages and tools
 
 <p align="center">
-  <img height="160" alt="Top languages by repository" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=varun-kannan&theme=github">
-  <img height="160" alt="Most used language by commits" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=varun-kannan&theme=github">
+  <img alt="" src="https://skillicons.dev/icons?i=ts,js,nodejs,fastify,nestjs,postgres,redis,docker,nginx,aws,git,linux,kotlin,androidstudio,vscode,postman&perline=8">
 </p>
 
----
+<p align="center">
+  <img alt="EMV / BER-TLV" src="https://img.shields.io/badge/EMV%20%2F%20BER--TLV-00C2A8?style=for-the-badge&labelColor=0d1117">
+  <img alt="DUKPT" src="https://img.shields.io/badge/DUKPT-4F8CFF?style=for-the-badge&labelColor=0d1117">
+  <img alt="PIN Translation" src="https://img.shields.io/badge/PIN%20Translation-8B7DFF?style=for-the-badge&labelColor=0d1117">
+  <img alt="L3 Certification" src="https://img.shields.io/badge/L3%20Certification-E056C1?style=for-the-badge&labelColor=0d1117">
+  <img alt="softPOS" src="https://img.shields.io/badge/softPOS-FF6BA9?style=for-the-badge&labelColor=0d1117">
+  <img alt="Tap to Pay" src="https://img.shields.io/badge/Tap%20to%20Pay-F5A623?style=for-the-badge&labelColor=0d1117">
+</p>
+
+<br>
+
+## 📦 &nbsp;Projects
+
+<p align="center">
+  <a href="https://github.com/varun-kannan/library"><b>library</b></a> &nbsp;·&nbsp;
+  Fastify + TypeORM + PostgreSQL lending API — migrations, JWT auth, nginx load balancing, 150 tests
+  <br>
+  <a href="https://github.com/varun-kannan/jobscout"><b>jobscout</b></a> &nbsp;·&nbsp;
+  TypeScript
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="" src="https://raw.githubusercontent.com/varun-kannan/varun-kannan/main/assets/header.svg" width="100%">
+</p>
 
 <p align="center"><sub>Chennai, India</sub></p>
