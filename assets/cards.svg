@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 626" width="1200" height="626" role="img" aria-label="What I work on">
+<defs><pattern id="grain2" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="0.9" fill="#E3DDD1"/></pattern></defs>
+<rect width="1200" height="626" fill="#FAF8F3"/>
+<rect width="1200" height="626" fill="url(#grain2)"/>
+<line x1="72" y1="0" x2="72" y2="626" stroke="#D2CBBD" stroke-dasharray="5 5"/>
+<line x1="1128" y1="0" x2="1128" y2="626" stroke="#D2CBBD" stroke-dasharray="5 5"/>
+<rect x="72" y="36" width="519" height="268" fill="#C4874A"/>
+<text x="100" y="80" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#6E2A0C" opacity="0.72">01</text>
+<text x="100" y="128" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#6E2A0C">Payments with no network</text>
+<text x="100" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#6E2A0C" opacity="0.88">A terminal is useless the moment it loses</text>
+<text x="100" y="201" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#6E2A0C" opacity="0.88">connectivity. Deferred authorisation across</text>
+<text x="100" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#6E2A0C" opacity="0.88">terminal, SDK, gateway and backend means a</text>
+<text x="100" y="247" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#6E2A0C" opacity="0.88">merchant keeps taking payments offline and</text>
+<text x="100" y="270" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#6E2A0C" opacity="0.88">settles automatically on reconnect.</text>
+<rect x="609" y="36" width="519" height="268" fill="#7C9CB2"/>
+<text x="637" y="80" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#17323F" opacity="0.72">02</text>
+<text x="637" y="128" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#17323F">Cryptography that must be</text>
+<text x="637" y="162" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#17323F">exact</text>
+<text x="637" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#17323F" opacity="0.88">DUKPT key derivation, PIN translation and key-</text>
+<text x="637" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#17323F" opacity="0.88">injection pipelines where a single wrong byte</text>
+<text x="637" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#17323F" opacity="0.88">fails certification rather than throwing an</text>
+<text x="637" y="281" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#17323F" opacity="0.88">error you can read.</text>
+<rect x="72" y="322" width="519" height="268" fill="#A9A08A"/>
+<text x="100" y="366" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#2E2A1E" opacity="0.72">03</text>
+<text x="100" y="414" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#2E2A1E">Fleets, not machines</text>
+<text x="100" y="464" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#2E2A1E" opacity="0.88">Terminal management, layered configuration and</text>
+<text x="100" y="487" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#2E2A1E" opacity="0.88">scheduled over-the-air updates — the</text>
+<text x="100" y="510" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#2E2A1E" opacity="0.88">difference between running one terminal and</text>
+<text x="100" y="533" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#2E2A1E" opacity="0.88">running thousands.</text>
+<rect x="609" y="322" width="519" height="268" fill="#B5674C"/>
+<text x="637" y="366" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#4A1608" opacity="0.72">04</text>
+<text x="637" y="414" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#4A1608">Debugging what you cannot</text>
+<text x="637" y="448" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#4A1608">see</text>
+<text x="637" y="498" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#4A1608" opacity="0.88">L3 certification failures traced to a single</text>
+<text x="637" y="521" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#4A1608" opacity="0.88">EMV tag. Duplicate event delivery tracked down</text>
+<text x="637" y="544" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#4A1608" opacity="0.88">through acknowledgement timing. The bugs that</text>
+<text x="637" y="567" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#4A1608" opacity="0.88">do not announce themselves.</text>
+</svg>
