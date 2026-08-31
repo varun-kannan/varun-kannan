@@ -1,37 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-label="What I work on">
-<defs><pattern id="g2" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="1.6" cy="1.6" r="0.85" fill="#E6E0D2"/></pattern></defs>
-<rect width="1200" height="600" fill="#FBF9F4"/><rect width="1200" height="600" fill="url(#g2)"/>
-<line x1="72" y1="0" x2="72" y2="600" stroke="#DCD5C6" stroke-dasharray="4 5"/>
-<line x1="1128" y1="0" x2="1128" y2="600" stroke="#DCD5C6" stroke-dasharray="4 5"/>
-<rect x="72" y="36" width="520" height="256" fill="#C0854A"/>
-<text x="102" y="80" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#5E2205" opacity="0.65">01</text>
-<text x="102" y="126" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="28" fill="#5E2205">Payments with no network</text>
-<text x="102" y="176" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#5E2205" opacity="0.9">A terminal is useless the moment it loses</text>
-<text x="102" y="199" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#5E2205" opacity="0.9">connectivity. Deferred authorisation across</text>
-<text x="102" y="222" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#5E2205" opacity="0.9">terminal, SDK, gateway and backend lets a</text>
-<text x="102" y="245" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#5E2205" opacity="0.9">merchant keep taking payments offline and</text>
-<text x="102" y="268" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#5E2205" opacity="0.9">settle on reconnect.</text>
-<rect x="608" y="36" width="520" height="256" fill="#7A9AB0"/>
-<text x="638" y="80" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#132B37" opacity="0.65">02</text>
-<text x="638" y="126" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="28" fill="#132B37">Cryptography that must be</text>
-<text x="638" y="162" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="28" fill="#132B37">exact</text>
-<text x="638" y="212" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#132B37" opacity="0.9">DUKPT key derivation, PIN translation and</text>
-<text x="638" y="235" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#132B37" opacity="0.9">key-injection pipelines, where a single</text>
-<text x="638" y="258" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#132B37" opacity="0.9">wrong byte fails certification rather than</text>
-<text x="638" y="281" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#132B37" opacity="0.9">throwing an error you can actually read.</text>
-<rect x="72" y="308" width="520" height="256" fill="#B3AA95"/>
-<text x="102" y="352" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#221F17" opacity="0.65">03</text>
-<text x="102" y="398" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="28" fill="#221F17">Fleets, not machines</text>
-<text x="102" y="448" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#221F17" opacity="0.9">Terminal management, layered configuration</text>
-<text x="102" y="471" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#221F17" opacity="0.9">and scheduled over-the-air updates — the</text>
-<text x="102" y="494" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#221F17" opacity="0.9">difference between running one terminal and</text>
-<text x="102" y="517" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#221F17" opacity="0.9">running several thousand of them.</text>
-<rect x="608" y="308" width="520" height="256" fill="#B0634A"/>
-<text x="638" y="352" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#3D1104" opacity="0.65">04</text>
-<text x="638" y="398" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="28" fill="#3D1104">Debugging what you cannot</text>
-<text x="638" y="434" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="28" fill="#3D1104">see</text>
-<text x="638" y="484" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#3D1104" opacity="0.9">L3 certification failures traced down to a</text>
-<text x="638" y="507" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#3D1104" opacity="0.9">single EMV tag. Duplicate event delivery</text>
-<text x="638" y="530" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#3D1104" opacity="0.9">tracked through acknowledgement timing. The</text>
-<text x="638" y="553" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#3D1104" opacity="0.9">bugs that never announce themselves.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 612" width="1200" height="612" role="img" aria-label="What I work on">
+<defs><pattern id="fdc" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="0.9" fill="#FFFFFF" opacity="0.07"/></pattern><pattern id="sdc" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1.35" fill="#FFFFFF" opacity="0.13"/></pattern><pattern id="lgc" width="72" height="72" patternUnits="userSpaceOnUse"><path d="M72 0V72M0 72H72" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern></defs>
+<rect width="1200" height="612" fill="#0B0B0A"/><rect width="1200" height="612" fill="url(#lgc)"/><rect width="1200" height="612" fill="url(#fdc)"/><rect width="1200" height="612" fill="url(#sdc)"/>
+<line x1="76" y1="0" x2="76" y2="612" stroke="#2B2B24" stroke-dasharray="4 6"/>
+<line x1="1124" y1="0" x2="1124" y2="612" stroke="#2B2B24" stroke-dasharray="4 6"/>
+<rect x="76" y="38" width="516" height="260" fill="#131312" stroke="#2B2B24"/>
+<line x1="76" y1="38" x2="76" y2="298" stroke="#F4F1EA" stroke-width="2" opacity="0.6"/>
+<text x="106" y="82" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#928C80">01</text>
+<text x="106" y="130" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">Payments with no network</text>
+<text x="106" y="180" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">A terminal is useless the moment it loses</text>
+<text x="106" y="203" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">connectivity. Deferred authorisation across</text>
+<text x="106" y="226" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">terminal, SDK, gateway and backend lets a</text>
+<text x="106" y="249" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">merchant keep taking payments offline and</text>
+<text x="106" y="272" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">settle on reconnect.</text>
+<rect x="608" y="38" width="516" height="260" fill="#131312" stroke="#2B2B24"/>
+<line x1="608" y1="38" x2="608" y2="298" stroke="#F4F1EA" stroke-width="2" opacity="0.6"/>
+<text x="638" y="82" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#928C80">02</text>
+<text x="638" y="130" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">Cryptography that must be</text>
+<text x="638" y="166" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">exact</text>
+<text x="638" y="216" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">DUKPT key derivation, PIN translation and key-</text>
+<text x="638" y="239" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">injection pipelines, where a single wrong byte</text>
+<text x="638" y="262" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">fails certification rather than throwing an</text>
+<text x="638" y="285" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">error you can actually read.</text>
+<rect x="76" y="314" width="516" height="260" fill="#131312" stroke="#2B2B24"/>
+<line x1="76" y1="314" x2="76" y2="574" stroke="#F4F1EA" stroke-width="2" opacity="0.6"/>
+<text x="106" y="358" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#928C80">03</text>
+<text x="106" y="406" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">Fleets, not machines</text>
+<text x="106" y="456" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">Terminal management, layered configuration and</text>
+<text x="106" y="479" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">scheduled over-the-air updates — the</text>
+<text x="106" y="502" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">difference between running one terminal and</text>
+<text x="106" y="525" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">running several thousand.</text>
+<rect x="608" y="314" width="516" height="260" fill="#131312" stroke="#2B2B24"/>
+<line x1="608" y1="314" x2="608" y2="574" stroke="#F4F1EA" stroke-width="2" opacity="0.6"/>
+<text x="638" y="358" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#928C80">04</text>
+<text x="638" y="406" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">Debugging what you cannot</text>
+<text x="638" y="442" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">see</text>
+<text x="638" y="492" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">L3 certification failures traced down to a</text>
+<text x="638" y="515" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">single EMV tag. Duplicate event delivery</text>
+<text x="638" y="538" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">tracked through acknowledgement timing. The</text>
+<text x="638" y="561" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">bugs that never announce themselves.</text>
 </svg>

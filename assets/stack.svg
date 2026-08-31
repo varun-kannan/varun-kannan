@@ -1,31 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 308" width="1200" height="308" role="img" aria-label="Languages and tools">
-<defs><pattern id="g3" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="1.6" cy="1.6" r="0.85" fill="#E6E0D2"/></pattern></defs>
-<rect width="1200" height="308" fill="#FBF9F4"/><rect width="1200" height="308" fill="url(#g3)"/>
-<line x1="72" y1="0" x2="72" y2="308" stroke="#DCD5C6" stroke-dasharray="4 5"/>
-<line x1="1128" y1="0" x2="1128" y2="308" stroke="#DCD5C6" stroke-dasharray="4 5"/>
-<text x="74" y="46" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="24" fill="#17150F">Languages and tools</text>
-<line x1="72" y1="70" x2="1128" y2="70" stroke="#DCD5C6" stroke-dasharray="4 5"/>
-<text x="74" y="106" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#847C6E">PAYMENTS</text>
-<text x="74" y="140" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">EMV / BER-TLV</text>
-<text x="74" y="166" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">DUKPT</text>
-<text x="74" y="192" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">PIN translation</text>
-<text x="74" y="218" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">ARQC &amp; CVM</text>
-<text x="74" y="244" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">L3 certification</text>
-<text x="74" y="270" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">softPOS / Tap to Pay</text>
-<line x1="410" y1="70" x2="410" y2="276" stroke="#DCD5C6" stroke-dasharray="4 5"/>
-<text x="426" y="106" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#847C6E">BACKEND</text>
-<text x="426" y="140" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">TypeScript</text>
-<text x="426" y="166" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">Node.js</text>
-<text x="426" y="192" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">Fastify / NestJS</text>
-<text x="426" y="218" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">PostgreSQL</text>
-<text x="426" y="244" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">TypeORM</text>
-<text x="426" y="270" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">Redis</text>
-<line x1="762" y1="70" x2="762" y2="276" stroke="#DCD5C6" stroke-dasharray="4 5"/>
-<text x="778" y="106" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#847C6E">PLATFORM</text>
-<text x="778" y="140" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">AWS</text>
-<text x="778" y="166" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">Docker</text>
-<text x="778" y="192" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">nginx</text>
-<text x="778" y="218" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">Linux</text>
-<text x="778" y="244" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">Git</text>
-<text x="778" y="270" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#17150F">Kotlin / Android</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" width="1200" height="310" role="img" aria-label="Languages and tools">
+<defs><pattern id="fds" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="0.9" fill="#FFFFFF" opacity="0.07"/></pattern><pattern id="sds" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1.35" fill="#FFFFFF" opacity="0.13"/></pattern><pattern id="lgs" width="72" height="72" patternUnits="userSpaceOnUse"><path d="M72 0V72M0 72H72" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern></defs>
+<rect width="1200" height="310" fill="#0B0B0A"/><rect width="1200" height="310" fill="url(#lgs)"/><rect width="1200" height="310" fill="url(#fds)"/><rect width="1200" height="310" fill="url(#sds)"/>
+<line x1="76" y1="0" x2="76" y2="310" stroke="#2B2B24" stroke-dasharray="4 6"/>
+<line x1="1124" y1="0" x2="1124" y2="310" stroke="#2B2B24" stroke-dasharray="4 6"/>
+<text x="78" y="46" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="24" fill="#F4F1EA">Languages and tools</text>
+<line x1="76" y1="70" x2="1124" y2="70" stroke="#2B2B24" stroke-dasharray="4 6"/>
+<text x="78" y="106" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.4" fill="#928C80">PAYMENTS</text>
+<text x="78" y="140" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">EMV / BER-TLV</text>
+<text x="78" y="166" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">DUKPT</text>
+<text x="78" y="192" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">PIN translation</text>
+<text x="78" y="218" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">ARQC &amp; CVM</text>
+<text x="78" y="244" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">L3 certification</text>
+<text x="78" y="270" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">softPOS / Tap to Pay</text>
+<line x1="411" y1="70" x2="411" y2="280" stroke="#2B2B24" stroke-dasharray="4 6"/>
+<text x="427" y="106" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.4" fill="#928C80">BACKEND</text>
+<text x="427" y="140" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">TypeScript</text>
+<text x="427" y="166" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">Node.js</text>
+<text x="427" y="192" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">Fastify / NestJS</text>
+<text x="427" y="218" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">PostgreSQL</text>
+<text x="427" y="244" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">TypeORM</text>
+<text x="427" y="270" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">Redis</text>
+<line x1="760" y1="70" x2="760" y2="280" stroke="#2B2B24" stroke-dasharray="4 6"/>
+<text x="776" y="106" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.4" fill="#928C80">PLATFORM</text>
+<text x="776" y="140" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">AWS</text>
+<text x="776" y="166" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">Docker</text>
+<text x="776" y="192" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">nginx</text>
+<text x="776" y="218" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">Linux</text>
+<text x="776" y="244" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">Git</text>
+<text x="776" y="270" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#B4AFA4">Kotlin / Android</text>
 </svg>
