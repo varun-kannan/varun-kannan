@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/varun-kannan/varun-kannan/main/assets/hero-dark.svg">
-    <img alt="Varun N — payments engineer. I build the systems behind card payments." src="https://raw.githubusercontent.com/varun-kannan/varun-kannan/main/assets/hero-light.svg" width="100%">
+    <img alt="Varun N — Software engineer. I build the systems behind card payments." src="https://raw.githubusercontent.com/varun-kannan/varun-kannan/main/assets/hero-light.svg" width="100%">
   </picture>
 </p>
 
