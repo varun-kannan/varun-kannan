@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 612" width="1200" height="612" role="img" aria-label="What I work on">
-<defs><pattern id="fdc" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="0.9" fill="#FFFFFF" opacity="0.07"/></pattern><pattern id="sdc" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1.35" fill="#FFFFFF" opacity="0.13"/></pattern><pattern id="lgc" width="72" height="72" patternUnits="userSpaceOnUse"><path d="M72 0V72M0 72H72" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern></defs>
-<rect width="1200" height="612" fill="#0B0B0A"/><rect width="1200" height="612" fill="url(#lgc)"/><rect width="1200" height="612" fill="url(#fdc)"/><rect width="1200" height="612" fill="url(#sdc)"/>
-<line x1="76" y1="0" x2="76" y2="612" stroke="#2B2B24" stroke-dasharray="4 6"/>
-<line x1="1124" y1="0" x2="1124" y2="612" stroke="#2B2B24" stroke-dasharray="4 6"/>
-<rect x="76" y="38" width="516" height="260" fill="#131312" stroke="#2B2B24"/>
-<line x1="76" y1="38" x2="76" y2="298" stroke="#F4F1EA" stroke-width="2" opacity="0.6"/>
+<defs><filter id="sfc" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="17"/></filter><mask id="qmc"><rect width="1200" height="612" fill="#fff"/><g filter="url(#sfc)"><rect x="76" y="38" width="516" height="260" fill="#000"/><rect x="608" y="38" width="516" height="260" fill="#000"/><rect x="76" y="314" width="516" height="260" fill="#000"/><rect x="608" y="314" width="516" height="260" fill="#000"/></g></mask><pattern id="fdc" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="0.9" fill="#FFFFFF" opacity="0.075"/></pattern><pattern id="sdc" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1.35" fill="#FFFFFF" opacity="0.14"/></pattern><pattern id="lgc" width="72" height="72" patternUnits="userSpaceOnUse"><path d="M72 0V72M0 72H72" stroke="#FFFFFF" stroke-opacity="0.045"/></pattern></defs>
+<g mask="url(#qmc)"><rect width="1200" height="612" fill="url(#lgc)"/><rect width="1200" height="612" fill="url(#fdc)"/><rect width="1200" height="612" fill="url(#sdc)"/></g>
+<line x1="76" y1="0" x2="76" y2="612" stroke="#FFFFFF" stroke-opacity="0.11" stroke-dasharray="4 6"/><line x1="1124" y1="0" x2="1124" y2="612" stroke="#FFFFFF" stroke-opacity="0.11" stroke-dasharray="4 6"/>
+<rect x="76" y="38" width="516" height="260" fill="#FFFFFF" fill-opacity="0.035" stroke="#FFFFFF" stroke-opacity="0.11"/>
+<line x1="76" y1="38" x2="76" y2="298" stroke="#F4F1EA" stroke-width="2" opacity="0.55"/>
 <text x="106" y="82" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#928C80">01</text>
 <text x="106" y="130" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">Payments with no network</text>
 <text x="106" y="180" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">A terminal is useless the moment it loses</text>
@@ -12,8 +11,8 @@
 <text x="106" y="226" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">terminal, SDK, gateway and backend lets a</text>
 <text x="106" y="249" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">merchant keep taking payments offline and</text>
 <text x="106" y="272" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">settle on reconnect.</text>
-<rect x="608" y="38" width="516" height="260" fill="#131312" stroke="#2B2B24"/>
-<line x1="608" y1="38" x2="608" y2="298" stroke="#F4F1EA" stroke-width="2" opacity="0.6"/>
+<rect x="608" y="38" width="516" height="260" fill="#FFFFFF" fill-opacity="0.035" stroke="#FFFFFF" stroke-opacity="0.11"/>
+<line x1="608" y1="38" x2="608" y2="298" stroke="#F4F1EA" stroke-width="2" opacity="0.55"/>
 <text x="638" y="82" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#928C80">02</text>
 <text x="638" y="130" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">Cryptography that must be</text>
 <text x="638" y="166" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">exact</text>
@@ -21,16 +20,16 @@
 <text x="638" y="239" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">injection pipelines, where a single wrong byte</text>
 <text x="638" y="262" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">fails certification rather than throwing an</text>
 <text x="638" y="285" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">error you can actually read.</text>
-<rect x="76" y="314" width="516" height="260" fill="#131312" stroke="#2B2B24"/>
-<line x1="76" y1="314" x2="76" y2="574" stroke="#F4F1EA" stroke-width="2" opacity="0.6"/>
+<rect x="76" y="314" width="516" height="260" fill="#FFFFFF" fill-opacity="0.035" stroke="#FFFFFF" stroke-opacity="0.11"/>
+<line x1="76" y1="314" x2="76" y2="574" stroke="#F4F1EA" stroke-width="2" opacity="0.55"/>
 <text x="106" y="358" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#928C80">03</text>
 <text x="106" y="406" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">Fleets, not machines</text>
 <text x="106" y="456" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">Terminal management, layered configuration and</text>
 <text x="106" y="479" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">scheduled over-the-air updates — the</text>
 <text x="106" y="502" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">difference between running one terminal and</text>
 <text x="106" y="525" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#B4AFA4">running several thousand.</text>
-<rect x="608" y="314" width="516" height="260" fill="#131312" stroke="#2B2B24"/>
-<line x1="608" y1="314" x2="608" y2="574" stroke="#F4F1EA" stroke-width="2" opacity="0.6"/>
+<rect x="608" y="314" width="516" height="260" fill="#FFFFFF" fill-opacity="0.035" stroke="#FFFFFF" stroke-opacity="0.11"/>
+<line x1="608" y1="314" x2="608" y2="574" stroke="#F4F1EA" stroke-width="2" opacity="0.55"/>
 <text x="638" y="358" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#928C80">04</text>
 <text x="638" y="406" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">Debugging what you cannot</text>
 <text x="638" y="442" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="27" fill="#F4F1EA">see</text>
