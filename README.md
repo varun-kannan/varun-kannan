@@ -10,7 +10,10 @@
   <a href="mailto:varun.n1160@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white"></a>
 </p>
 
-I build card-payment systems — EMV transaction flows on terminals and softPOS, offline
-authorisation, acquirer integrations, and the L3 network certification that gets them live.
-
-**Stack** &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Fastify &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; Redis &nbsp;·&nbsp; AWS &nbsp;·&nbsp; Docker
+<p align="center">
+Software engineer with production experience in fintech, currently building card-payment systems at
+Surfboard Payments. I specialize in EMV transaction flows, offline authorisation, and acquirer
+integrations across physical terminals and softPOS, using TypeScript, Node.js, NestJS, PostgreSQL,
+and Redis. Passionate about payment cryptography and network certification &mdash; the work that has
+to be exactly right the first time.
+</p>
